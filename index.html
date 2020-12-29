@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Merry Christmas !</title>
+  <script src="font.js"></script>
+<script>try{Typekit.load();}catch(e){}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+<script>
+	$(document).ready(function(){
+    	$("div.to").fadeIn(3000);
+    	$("div.xmas-message").fadeIn(6000);
+    	$("div.from").fadeIn(9000);
+  	});
+</script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Xmas Wrapper -->
+<section class="xmas">
+
+	<div class="to" style="font-family: OPTIZither, sans-serif; color: #ffffff;font-size: 40px; display: none;">
+		<div>Dear</div>
+		<div> Jale </div>
+	</div>
+		
+	<!-- Merry Xmas message container -->
+	<div class="xmas-message" style="display: none;"></div>
+
+	<div class="from" style="display: none;">
+		<div>from</div>
+		<div class="gc-link small-title from-name" style="font-style: italic;">Ulik</div>
+	</div>
+	
+	<!-- Let it snow! -->
+	<canvas id="xmas"></canvas>
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
